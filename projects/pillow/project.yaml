@@ -1,8 +1,6 @@
 homepage: "https://python-pillow.org/"
 language: c++
-primary_contact: "guidovranken@gmail.com"
-auto_ccs:
- - "security@python-pillow.org"
+primary_contact: "zach@in8-solutions.com"
 sanitizers:
  - address
  - undefined
