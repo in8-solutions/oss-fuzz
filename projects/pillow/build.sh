@@ -91,7 +91,7 @@ cd $SRC/oss-fuzz-fuzzers/pillow
 rm $CPYTHON_INSTALL_PATH/lib/python3.8/lib-dynload/_tkinter*.so
 make
 cp $SRC/oss-fuzz-fuzzers/pillow/fuzzer-* $OUT/
-cp $SRC/oss-fuzz-fuzzers/pillow/I.py $OUT/
+cp $SRC/oss-fuzz-fuzzers/pillow/*.py $OUT/
 
 # Create venv for Pillow compilation
 $CPYTHON_UNINSTRUMENTED_INSTALL_PATH/bin/python3 -m venv $SRC/venv
